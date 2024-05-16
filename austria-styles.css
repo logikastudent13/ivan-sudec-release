@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    background-color: blue;
+}
+.header{
+    text-align: center;
+    color: white;
+}
+.nav_link:hover{
+    border-bottom: 2px solid white;
+    background-color: rgb(151, 78, 211);
+    border-radius: 20px;
+}
+.images_container{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.round_img{
+    border-radius: 50%;
+    width: 150px ;
+    height: 150px;
+    transition: 0.3s;
+}
+.round_img:hover{
+    border-radius: 20%;
+}
+.travel_description{
+    color: white;
+    margin: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:15px;
+    margin-bottom:20px;
+}
+.nav_link{
+    color:white;
+    text-decoration: none;transition: 0.3s;
+    padding: 10px;
+}
+.nav_link:hover{
+    border-bottom: 2px solid white;
+}
+.footer_link{
+    color:white;
+}
+.footer_link{
+    color:white;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+.footer_link_container{
+    display: flex;
+    justify-content: space-around;
+}
+.content_container{
+    display: flex;
+}
+.travel_img{
+    width: 450px;
+    margin-right: 20px;
+}
+.travel_text{
+    color:white;
+}
