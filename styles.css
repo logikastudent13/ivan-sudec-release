@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    background-color: blue;
+}
+h1{
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:15px;
+}
+.nav_link{
+    color:white;
+    text-decoration: none;transition: 0.3s;
+    padding: 5px ;
+}
+.nav_link:hover{
+    border-bottom: 2px solid white;
+    background-color: rgb(151, 78, 211);
+    border-radius: 20px;
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+.content_container{
+    display: flex;
+}
+img{
+    margin-right: 20px;
+}
+.travel_text{
+    margin: 10px;
+    color:white;
+}
+.video_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.video_header{
+    text-align: center;
+}
+.video{
+    width: 20%;
+}
+.footer_link{
+    color:white;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+.place_container{
+    display: flex;
+}
+.place_img{
+       width: 50%; 
+
+    transition: 0.3s;
+}
+.place_img:hover{
+    width: 100%;
+
+}
+.place_img:hover p{
+    font-size: 0%;
+
+}
+.place_container p{
+    transition:0.3s;
+    color:white;
+}
+.footer_link_container{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    border-top: 1px solid black;
+}
+
+.travel_img{
+    width: 450px;
+}
